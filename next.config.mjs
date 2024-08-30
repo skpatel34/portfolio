@@ -1,7 +1,7 @@
-import { withSentryConfig } from '@sentry/react';
+import { withSentryConfig } from '@sentry/nextjs';
 
 const moduleExports = {
-  // Your existing Next.js configuration
+  // Your Next.js config
 };
 
 const sentryWebpackPluginOptions = {
