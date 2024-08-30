@@ -1,11 +1,15 @@
 import { withSentryConfig } from '@sentry/nextjs';
 
-const moduleExports = {
-  // Your Next.js config
+const nextConfig = {
+  // Your Next.js config options
 };
 
 const sentryWebpackPluginOptions = {
-  // Additional config options for the Sentry Webpack plugin.
+  // Sentry options
+  project: 'portfolio-slug', // Replace with your actual project slug
+  telemetry: false,
 };
 
-export default withSentryConfig(moduleExports, sentryWebpackPluginOptions);
+
+
+export default withSentryConfig(nextConfig, sentryWebpackPluginOptions);
