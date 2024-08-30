@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Component } from 'react';
+
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { companies, testimonials } from '@/data'
 
