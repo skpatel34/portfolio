@@ -29,7 +29,7 @@ const Hero = () => {
         words='Transforming Concepts into Seamless User Expriences'
         />
 
-        <a href="#about">
+        <a href="#about"> 
           <MagicButton
             title="Show My Work"
             icon={<FaLocationArrow/>}
